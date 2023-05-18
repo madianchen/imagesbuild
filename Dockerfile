@@ -1,2 +1,2 @@
 FROM registry.k8s.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2
-RUN  /bin/bash  echo "hello"
+CMD ["sh","-c","echo $HOME"]
